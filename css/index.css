@@ -359,7 +359,7 @@ body {
   display: inline-block;
 }
 .banner-info .news {
-  width: 466px;
+  width: 420px;
   height: 290px;
   margin-bottom: 20px;
 }
@@ -414,13 +414,13 @@ body {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 466px;
+  width: 420px;
   height: 130px;
 }
 .banner-info .app a {
-  width: 466px;
+  width: 420px;
   height: 130px;
-  background: url(../images/cont/banner_info.jpg) no-repeat center;
+  background: url(../images/cont/banner_info.gif) repeat ;
 }
 /* ====== 内容列表 ====== */
 .main-cont__title {
