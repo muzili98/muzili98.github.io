@@ -6,9 +6,28 @@
 
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/index.css">
+<style>
+    #juzi {
+        position:fixed;
+        width: 63.1%;
+        left: 18.4%;
+        z-index: 20;
+    }
+    #juzi p{
+        display: inline; 
+        border-radius:10px; 
+        background-color: #787979;
+        font: 30px/40px "微软雅黑";/*字体*/
+        color:#ffffff;/*字体颜色*/
+    }
+    #juzi span{
+        font: 10px/40px "微软雅黑";/*字体*/
+        color: #ffffff;/*字体颜色*/
+    }
+</style>
 </head>
 <body>
-
+  
 <header class="header">
 <div class="header-inner body-width">
   <a href="#" class="logo"></a>
@@ -29,7 +48,7 @@
 	<ul>
 	  <li>
 		<span class="line"></span>
-		<a href="#" class="dreamer">hai收藏</a>
+		<a href="#" class="dreamer">收藏</a>
 		<i class="icon-text__pink icon-new">new</i>
 	  </li>
 	  <li>
@@ -45,6 +64,12 @@
 </div>
 <div class="header-shadow"></div>
 </header>
+
+<div id="juzi">
+    <marquee>
+        <p>希望是人类的第一序列武器！<span>by 《第一序列》</span></p>
+    </marquee>
+ </div> 
 
 <div class="main">
 <div class="main-inner body-width">
